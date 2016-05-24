@@ -15,6 +15,12 @@ namespace ExampleApp
             user.GetInformation();
             user.GetDate();
 
+            Console.WriteLine();
+
+            //Information about network
+            NetworkInfo network = new NetworkInfo();
+            network.GetIPAddress();
+
             Console.ReadLine();
         }
     }

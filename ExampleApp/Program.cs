@@ -10,6 +10,12 @@ namespace ExampleApp
     {
         static void Main(string[] args)
         {
+            //Information about user
+            User user = new User();
+            user.GetInformation();
+            user.GetDate();
+
+            Console.ReadLine();
         }
     }
 }
